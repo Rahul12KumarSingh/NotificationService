@@ -8,7 +8,7 @@ app.use(cors());
 app.use(bodyParser.json())
 const admin = require("firebase-admin");
 
-const serviceAccount =  require("./serviceAccountKey.json"); 
+const serviceAccount =  require("./rock-web-453711-d5-firebase-adminsdk-fbsvc-4ad62dba90.json"); 
 
 admin.initializeApp({
     credential : admin.credential.cert(serviceAccount),
